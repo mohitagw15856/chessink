@@ -1,0 +1,43 @@
+PZL 1
+M title Xiangqi endgame studies
+M game xiangqi
+%%
+F 4k4/R3p4/9/9/9/9/9/9/9/3K5 r
+X a8a9
+R 900
+T mate mateIn1 rankMate
+%%
+F 4k2b1/R3p4/9/9/9/9/9/9/9/3K5 r
+X a8a9
+R 950
+T mate mateIn1 rankMate
+%%
+F 4k4/4p3R/9/9/9/9/9/9/9/3K5 r
+X i8i9
+R 900
+T mate mateIn1 rankMate
+%%
+F 5k3/R4p3/9/9/9/9/9/9/9/3K5 r
+X a8a9
+R 1000
+T mate mateIn1 rankMate
+%%
+F 3k5/R2p5/9/9/9/9/9/9/9/4K4 r
+X a8a9
+R 1000
+T mate mateIn1 rankMate
+%%
+F 2P1k4/C3p4/9/9/9/9/9/9/9/3K5 r
+X a8a9
+R 1200
+T mate mateIn1 cannonMate
+%%
+F 3k5/9/9/9/9/9/9/9/R8/4K1R2 r
+X g0g9 d9d8 a1d1
+R 1300
+T mate mateIn2 flyingGeneral
+%%
+F 3k5/R8/9/9/9/9/9/9/9/3RK4 r
+X a8a9
+R 1050
+T mate mateIn1 rankMate

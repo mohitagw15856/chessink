@@ -1,0 +1,44 @@
+# Xiangqi endgame studies in the ChessInk text format (docs/XIANGQI_FORMAT.md).
+# Coordinates: files a-i from Red's left, ranks 0 (Red base) to 9 (Black base).
+# Solutions start with the player's (Red's) move. Every study is validated by
+# the engine in test/host (legal line, true mate for mate themes).
+
+fen 4k4/R3p4/9/9/9/9/9/9/9/3K5 r
+moves a8a9
+rating 900
+themes mate mateIn1 rankMate
+
+fen 4k2b1/R3p4/9/9/9/9/9/9/9/3K5 r
+moves a8a9
+rating 950
+themes mate mateIn1 rankMate
+
+fen 4k4/4p3R/9/9/9/9/9/9/9/3K5 r
+moves i8i9
+rating 900
+themes mate mateIn1 rankMate
+
+fen 5k3/R4p3/9/9/9/9/9/9/9/3K5 r
+moves a8a9
+rating 1000
+themes mate mateIn1 rankMate
+
+fen 3k5/R2p5/9/9/9/9/9/9/9/4K4 r
+moves a8a9
+rating 1000
+themes mate mateIn1 rankMate
+
+fen 2P1k4/C3p4/9/9/9/9/9/9/9/3K5 r
+moves a8a9
+rating 1200
+themes mate mateIn1 cannonMate
+
+fen 3k5/9/9/9/9/9/9/9/R8/4K1R2 r
+moves g0g9 d9d8 a1d1
+rating 1300
+themes mate mateIn2 flyingGeneral
+
+fen 3k5/R8/9/9/9/9/9/9/9/3RK4 r
+moves a8a9
+rating 1050
+themes mate mateIn1 rankMate
